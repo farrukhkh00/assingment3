@@ -1,0 +1,79 @@
+.parent_container{
+display: flex;
+justify-content: center;
+}
+
+
+.secparent_container{
+    width: 600px;
+    height: 280px;
+    border: 1px solid blue;
+    margin-top: 20px;
+   border-radius: 8px;
+   display: flex;
+justify-content: center;
+align-items: center;
+background-color: #ffffff29;
+box-shadow: 4px 4px 2px blue
+
+}
+
+.sp1{
+    font-size: 70px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.sp2{
+    font-size: 70px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.ap{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-bottom:35px;
+    
+
+}
+
+.sec{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 16px;
+    margin-left: -45px;
+    margin-bottom:-40px;
+    
+
+}
+body {
+    margin: auto;   
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(39, 0, 145) 3%, rgb(0, 0, 0) 38%, rgb(2, 29, 179) 68%, rgb(0, 0, 0) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+
